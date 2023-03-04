@@ -7,6 +7,8 @@
             oDocument.InsertContent([oParagraph]);
         }, true);
     };
-    window.Asc.plugin.button = function (id) {
-    };
+    window.Asc.plugin.button = function()
+	{
+		this.executeCommand("close", "");
+	};
 })(window, undefined);
